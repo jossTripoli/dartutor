@@ -4,6 +4,8 @@
 const express = require('express');
 // bring in path module which is a core module (built in by default, you don't have to install it) in Node.js
 const path = require('path');
+// bring in file system module which is another core module and will allow us to read the json files
+const fs = require('fs');
 
 // ***Init app
 const app = express();
@@ -42,7 +44,7 @@ app.get('/', (req, res) => {
     // sends a response of "Hello World!" to the **BROWSER**
     // res.send('Hello World!');
 
-    // define an array of module objects
+    // define an array of people objects
     let people = [
         {
             id: 0,
@@ -89,8 +91,20 @@ app.get('/people/:name', (req, res) => {
     // Get the person's name from the request
     const name = req.params.name;
 
-    // Render the name.pug template with the person's name
-    res.render( "people/" + name, {name: name} );
+    // Read the person's JSON file if it exists and save the data to a variable
+    try {
+        const data = fs.readFileSync(`${__dirname}/public/json/` + name + `.json`);
+        const personData = JSON.parse(data.toString());
+
+        // Render the name.pug template with the person's name like people/joss
+        // Also send the person's name as a variable to the template
+        // Also send the person's data
+        res.render("people/" + name + "/" + name, { name: name, data: personData });
+    } catch (error) {
+        // console.error('Error reading or parsing the file:', error);
+        console.error("No JSON file exists for " + name);
+        res.render("people/" + name + "/" + name, { name: name});
+    }
 });
 
 // Route for viewing PUG kitchen sink page
