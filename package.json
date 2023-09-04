@@ -1,0 +1,15 @@
+{
+  "name": "dartutor",
+  "version": "1.0.0",
+  "description": "Basic node app to learn technology to work on DART Learn site",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Joss Tripoli",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,74 @@
+extends ../../layout 
+
+block content
+    .ui.container
+        p
+        a(href='/')
+            i.left.arrow.huge.icon       
+        .ui.grid
+            .six.wide.column
+                .ui.basic.padded.segment
+                    //- h1 #{name}
+                    .ui.card
+                        .ui.slide.masked.reveal.image
+                            img.visible.content(src='/images/joss/joss.jpg')
+                            img.hidden.content(src='/images/joss/joss1.jpg')
+                            //- img.hidden.content(src='/images/joss/joss2.jpg')
+                        .content
+                            a.header Joss Tripoli
+                            .meta
+                                span.date Fall 2023
+                        .ui.purple.large.button#showProfile View Profile
+                        .extra.content
+                            a
+                                i.heart.icon
+                                | Nice to meet you
+            .ten.wide.column#hideProfile
+                br
+                .ui.segment
+                    h1 My Profile
+                    .ui.divided.items
+                        .item
+                            h2 Name
+                            p= data.person.name
+                        .item
+                            h2 Email
+                            p= data.person.email
+                        .item
+                            h2 Videogames
+                            ul
+                                each game in data.person.videogames
+                                    li= game
+                        .item
+                            h2 Pet
+                            img.ui.tiny.image#pumpkinImg(src=`/images/joss/joss2.jpg`)
+                            .middle.aligned.content
+                                p= data.person.pet
+                        .item
+                            h2 Sports
+                            ul
+                                each sport in data.person.sports
+                                    li= sport
+                        .item
+                            h2 Art
+                            ul
+                                each art in data.person.art
+                                    li= art
+                        .item
+                            h2 Musicians
+                            ul
+                                each musician in data.person.musicians
+                                    li
+                                        h3= musician.name
+                                        p= `Genre: ${musician.genre}`
+                                        h4 Albums
+                                        ul
+                                            each album in musician.albums
+                                                li= album
+                                    br
+
+block styles 
+    link(rel='stylesheet', href='/css/joss.css')  
+
+block scripts
+    script(src="/js/joss.js")
