@@ -1,0 +1,8 @@
+{
+    "person":{
+        "name": "Caden Wright(He/Him)",
+        "email": "cjw224@lehigh.edu",
+        "pet": "Juniper",
+        "sports": ["Wrestling", "Pickleball", "Biking"]
+    }
+}
