@@ -1,0 +1,42 @@
+{
+    "person": {
+        "name": "Joss Tripoli (they/them)",
+        "email": "jct324@lehigh.edu",
+        "videogames": ["Paper Mario: The Thousand Year Door", "Viva Pinata Trouble In Paradise", "Pikmin 2"],
+        "pet": "Pumpkin the Lutino cockatiel",
+        "sports": ["Tennis", "Flow arts", "Bicycling", "Swimming"],
+        "art": ["Resin Craft", "Fiber arts", "Pixel art", "Wood carving", "3D Printing", "Crafting"],
+        "musicians": [
+            {
+                "name": "Beyoncé",
+                "genre": "Pop/R&B",
+                "albums": ["Lemonade", "Dangerously In Love", "4", "B'Day", "I Am... Sasha Fierce", "BEYONCÉ", "The Lion King: The Gift"]
+            },
+            {
+                "name": "Faouzia",
+                "genre": "Pop",
+                "albums": ["Citizens", "Stripped"]
+            },
+            {
+                "name": "Utada Hikaru",
+                "genre": "J-Pop",
+                "albums": ["First Love", "Deep River", "Fantôme", "Hatsukoi"]
+            },
+            {
+                "name": "Dorian Electra",
+                "genre": "Experimental Pop",
+                "albums": ["Flamboyant", "My Agenda"]
+            },
+            {
+                "name": "Pabllo Vittar",
+                "genre": "Pop",
+                "albums": ["Vai Passar Mal", "111", "Não Para Não", "Batidão Tropical", "Noitada"]
+            },
+            {
+                "name": "Måneskin",
+                "genre": "Rock",
+                "albums": ["Il ballo della vita", "Teatro d'ira: Vol. I", "Rush!", "Chosen"]
+            }
+        ]
+    }
+}

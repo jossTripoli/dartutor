@@ -1,0 +1,22 @@
+extends layout 
+
+block content
+    .ui.container
+        br
+        .ui.padded.segment
+            h1 #{title}
+            h2 
+                a(href='kitchenSink' target="_blank") Pug Templating Language Kitchen Sink Reference page
+            h2
+                a(href='https://fomantic-ui.com/kitchen-sink.html' target="_blank") Formantic UI Web Framework Kitchen Sink Reference page
+            i A "kitchen sink" page demonstrates a wide array of elements and features of a language or framework.
+            hr
+            br
+            each person, i in people
+                div
+                    //- pug variable interpolation: https://pugjs.org/language/interpolation.html
+                    h2= person.name
+                    p= person.task
+                    a(href='/people/' + person.name) View Person
+                    br
+                    br

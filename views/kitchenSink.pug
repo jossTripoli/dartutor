@@ -1,0 +1,309 @@
+//- Source: https://codepen.io/team/codepen/pen/bGdmYpQ
+main
+  section
+    hgroup
+      h1 h1 HTML5 Kitchen Sink
+      h2
+        | h2 Back in my quaint
+        a(href="#") garden
+      h3
+        | h3 Jaunty
+        a(href="#") zinnias
+        |
+        | vie with flaunting phlox
+      h4 h4 Five or six big jet planes zoomed quickly by the new tower.
+      h5
+        | h5 Expect skilled signwriters to use many jazzy, quaint old alphabets effectively.
+      h6 h6 Pack my box with five dozen liquor jugs.
+  hr
+  section
+    header
+      nav
+        ul
+          li
+            a(href="#") Home
+          li
+            a(href="#") About
+          li
+            a(href="#") Contact
+    article
+      p
+        | This paragraph is nested inside an article. It contains many different, sometimes useful,
+        a(href="https://www.w3schools.com/tags/") HTML5 tags
+        | . Of course there are classics like
+        em emphasis
+        | ,
+        strong strong
+        | , and
+        small small
+        |
+        | but there are many others as well. Hover the following text for abbreviation tag:
+        abbr(title="abbreviation") abbr
+        | . Similarly, you can use acronym tag like this:
+        acronym(title="For The Win") ftw
+        | . You can define
+        del deleted text
+        |
+        | which often gets replaced with
+        ins inserted
+        |
+        | text.
+      p
+        | You can also use
+        kbd keyboard text
+        | , which sometimes is styled similarly to the
+        code &lt;code&gt;
+        |
+        | or
+        samp samp
+        |
+        | tags. Even more specifically, there is a tag just for
+        var variables
+        | . Not to be mistaken with blockquotes
+        |
+        | below, the quote tag lets you denote something as
+        q quoted text
+        | . Lastly don&apos;t forget the sub (H
+        sub 2
+        | O) and sup (E = MC
+        sup 2
+        | ) tags.
+    aside This is an aside.
+    footer This is footer for this section
+  hr
+  section
+    blockquote
+      p Blockquote: I quickly explained that many big jobs involve few hazards
+    blockquote
+      p
+        | This is a mult-line blockquote with a cite reference. People think focus means saying yes to the thing you&rsquo;ve got to focus on. But that&rsquo;s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick
+        | carefully. I&rsquo;m actually as proud of the things we haven&rsquo;tdone as the things I have done. Innovation is saying no to 1,000 things.
+        cite Steve Jobs &ndash; Apple Worldwide Developers&rsquo; Conference, 1997
+  hr
+  section
+    table
+      caption Tables can have captions now.
+      tbody
+        tr
+          th Person
+          th Number
+          th Third Column
+        tr
+          td Someone Lastname
+          td 900
+          td Nullam quis risus eget urna mollis ornare vel eu leo.
+        tr
+          td
+            a(href="#") Person Name
+          td 1200
+          td
+            | Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla.
+        tr
+          td Another Person
+          td 1500
+          td
+            | Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit.
+        tr
+          td Last One
+          td 2800
+          td
+            | Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
+  hr
+  section
+    dl
+      dt Definition List Title
+      dd Definition list division.
+      dt Kitchen Sink
+      dd
+        | Used in expressions to describe work in which all conceivable (and some inconceivable) sources have been mined. In this case, a bunch of markup.
+      dt aside
+      dd Defines content aside from the page content
+      dt blockquote
+      dd Defines a section that is quoted from another source
+  hr
+  section
+    ul
+      li
+        | Unordered List item one
+        ul
+          li
+            | Nested list item
+            ul
+              li Level 3, item one
+              li Level 3, item two
+              li Level 3, item three
+              li Level 3, item four
+          li List item two
+          li List item three
+          li List item four
+      li List item two
+      li List item three
+      li List item four
+    hr
+    ol
+      li
+        | List item one
+        ol
+          li
+            | List item one
+            ol
+              li List item one
+              li List item two
+              li List item three
+              li List item four
+          li List item two
+          li List item three
+          li List item four
+      li List item two
+      li List item three
+      li List item four
+  hr
+  section
+    address
+      | 1 Infinite Loop
+      br
+      |
+      | Cupertino, CA 95014
+      br
+      |
+      | United States
+  hr
+  section
+    pre.
+      pre {
+        display: block;
+        padding: 7px;
+        background-color: #F5F5F5;
+        border: 1px solid #E1E1E8;
+        border-radius: 3px;
+        white-space: pre-wrap;
+        word-break: break-all;
+        font-family: Menlo, Monaco;
+        line-height: 160%;
+      }      
+  hr
+  figure
+    img(src="https://www.fillmurray.com/505/314")
+    figcaption
+      | Fig1. A picture of Bill Murray from
+      a(href="https://www.fillmurray.com/") fillmurray.com
+  hr
+  section
+    form
+      p
+        label(for="example-input-email") Email address
+        input#example-input-email(type="email", placeholder="Enter email")
+      p
+        label(for="example-input-password1") Number
+        input#example-input-number(type="number", placeholder="Number")
+      p
+        label(for="example-input-password") Password
+        input#example-input-password(type="password", placeholder="Password")
+      p
+        label(for="example-input-search") Search
+        input#example-input-serach(type="search", placeholder="Search ..")
+      p
+        label(for="example-input-tel") Telephone number
+        input#example-input-tel(type="tel", placeholder="Telephone number")
+      p
+        label(for="example-input-text") Text
+        input#example-input-text(
+          type="text",
+          placeholder="Enter some text here"
+        )
+      p
+        label(for="example-input-url") Url
+        input#example-input-url(type="url", placeholder="Enter a url here")
+      p
+        label(for="example-input-color") Color
+        input#example-inupt-color(type="color", placeholder="#fff")
+      p
+        label(for="example-input-date") Date
+        input#example-input-date(type="date", placeholder="date")
+      p
+        label(for="example-input-date-time") Date / Time
+        input#example-input-date-time(
+          type="datetime",
+          placeholder="date / time"
+        )
+      p
+        label(for="example-input-date-time-local") Date / Time local
+        input#example-input-date-time-local(
+          type="datetime-local",
+          placeholder="date / time local"
+        )
+      p
+        label(for="example-input-month") Month
+        input#example-input-month(type="month", placeholder="Month")
+      p
+        label(for="example-input-week") Week
+        input#example-input-week(type="week", placeholder="Week")
+      p
+        label(for="example-input-time") Time
+        input#example-input-time(type="time", placeholder="Time")
+      p
+        label(for="example-select1") Example select
+        select#example-select1
+          option 1
+          option 2
+          option 3
+          option 4
+          option 5
+      p
+        label(for="example-select2") Example multiple select
+        select#example-select2(multiple="")
+          option 1
+          option 2
+          option 3
+          option 4
+          option 5
+      p
+        label(for="example-textarea") Example textarea
+        textarea#example-textarea(rows="3")
+      p
+        label(for="example-input-file") File input
+        input#example-input-file(type="file")
+      fieldset
+        legend I am legend
+        div
+          label
+            input#optionsR-radios1(
+              type="radio",
+              name="options-radios",
+              value="option1",
+              checked=""
+            )
+            |
+            | Option one is this and that&mdash;be sure to include why it&apos;s great
+        div
+          label
+            input#options-radios2(
+              type="radio",
+              name="options-radios",
+              value="option2"
+            )
+            |
+            | Option two can be something else and selecting it will deselect option one
+        div
+          label
+            input#options-radios3(
+              type="radio",
+              name="optionsRadios",
+              value="option3",
+              disabled=""
+            )
+            |
+            | Option three is disabled
+      fieldset
+        legend I am also legend
+        input(type="checkbox")
+        |
+        | Check me out
+        input(type="checkbox")
+        |
+        | Or check me out
+      p
+        button(type="button", name="button") Button
+        input(type="button", name="input", value="Input Button")
+        input(type="submit", name="submit", value="Submit Button")
+        input(type="reset", name="reset", value="Reset Button")
