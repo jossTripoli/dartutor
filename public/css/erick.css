@@ -1,0 +1,30 @@
+.portrait{
+    height: 100px;
+    width: 100px;
+}
+
+body{
+    background: #4183c4;
+    color: #ffffff
+}
+
+h2 {
+ color: rgb(255, 215, 0)
+}
+
+h1 {
+    color: rgb(255, 215, 0);
+    font-size: 80px
+   }
+
+.ui.segment {
+    background-color: #001549 !important;
+    border: 2px solid #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);  /* Increased alpha to 0.5 */
+  }
+  
+  
+  
+/* p{
+    color: #001549
+} */
