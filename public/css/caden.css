@@ -18,6 +18,10 @@ h3 {
     display: block;
 }
 
+#hideProfile.transition {
+    transition: display 2s ease-in-out;
+}
+
 .item {
     margin-left: 25px;
     padding-bottom: 10px;
