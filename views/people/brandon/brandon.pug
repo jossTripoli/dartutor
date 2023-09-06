@@ -10,11 +10,13 @@ block content
                     .ui.fluid.card  
                         img.visible.content(id = "veniceimg" src='/images/brandon/brandon1.jpg')
                         h1 #{data.person.name}
+                        p #{data.person.email}
                         .ui.blue.large.button#showProfile View Profile
-                    
-                        
-        
+            .ten.wide.column#hideProfile 
+                ui.segment
+                    h1 test
 
+                    
 block styles 
     link(rel='stylesheet', href='/css/brandon.css')  
 
