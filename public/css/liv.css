@@ -1,0 +1,33 @@
+body {
+    background-color: #CBC3E3;
+}
+
+p {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.ui.basic.padded.segment {
+    margin-top: 750px;
+}
+
+.ui.grid{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.seven.wide.column{
+    background-color: #A653F5;
+}
+
+.six.wide.column{
+    background-color: #65B8BF;
+}
+
+.ten.six.wide.column{
+    background-color: aquamarine;
+}
+
+
