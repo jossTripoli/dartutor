@@ -2,8 +2,21 @@ extends ../../layout
 
 block content
     .ui.container
-        br
-        .ui.padded.segment
-            a(href='/')
-                i.left.arrow.huge.icon    
-            h1 #{name}
+        a(href='/')
+            i.left.arrow.huge.icon  
+        .ui.grid
+            .six.wide.column
+                .ui.basic.padded.segment
+                    .ui.fluid.card  
+                        img.visible.content(id = "veniceimg" src='/images/brandon/brandon1.jpg')
+                        h1 #{data.person.name}
+                        .ui.blue.large.button#showProfile View Profile
+                    
+                        
+        
+
+block styles 
+    link(rel='stylesheet', href='/css/brandon.css')  
+
+block scripts
+    script(src="/js/brandon.js")
