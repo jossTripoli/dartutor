@@ -6,5 +6,11 @@ body {
     margin: auto;
 }
 
+#hideProfile {
+    display: none;
+}
 
+#hideProfile.visible {
+    display: block;
+}
 

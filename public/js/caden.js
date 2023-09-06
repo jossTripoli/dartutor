@@ -1,3 +1,6 @@
 $(document).ready(function() {
-    // do something
+    $('#showProfile').on('click', function() {
+        // Toggle the visibility classes to trigger the transition
+        $('#hideProfile').toggleClass('hidden visible');
+    });
 });
