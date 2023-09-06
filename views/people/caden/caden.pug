@@ -24,7 +24,26 @@ block content
             .ten.wide.column#hideProfile 
                 br
                 .ui.segment 
-                h1 My Profile
+                    h1 My Profile
+                    .ui.divided.items 
+                    .item 
+                        h2 Name 
+                        p= data.person.name
+                    .item 
+                        h2 Email 
+                        p= data.person.email 
+                    .item 
+                        h2 Hobbies 
+                        ul 
+                            each hobby in data.person.hobbies 
+                                li= hobby 
+                    .item
+                        h3= data.person.pet 
+                        p This is my pet cat! 
+                        img.image(src='images/caden/juniper.jpg')
+                    
+
+
 
 
 block styles 
