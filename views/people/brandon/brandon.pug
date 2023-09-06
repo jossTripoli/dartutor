@@ -11,10 +11,27 @@ block content
                         img.visible.content(id = "veniceimg" src='/images/brandon/brandon1.jpg')
                         h1 #{data.person.name}
                         p #{data.person.email}
+                        p #{data.person.year}
                         .ui.blue.large.button#showProfile View Profile
             .ten.wide.column#hideProfile 
                 ui.segment
-                    h1 test
+                    h1 About Me
+                    h2 Hobbies:
+                    ul 
+                        each hobby in data.person.hobbies
+                            li= hobby
+                    h2 Music I Like:
+                    ul
+                        each song in data.person.music
+                            li= song
+                    h2 Favorite Sports/Teams:
+                    ul
+                        each sport in data.person.sports
+                            li= sport
+                    h2 Fun Facts:
+                    ul
+                        each fact in data.person.fun_facts
+                            li= fact
 
                     
 block styles 

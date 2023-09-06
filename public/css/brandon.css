@@ -18,6 +18,7 @@ h1,p {
 
 .ten.wide.column{
     background-color: white;
+    max-width: 400px;
 }
 
 /* Initially hide the profile with a display: none; */
@@ -33,4 +34,8 @@ h1,p {
 /* Add Semantic UI classes to control visibility */
 #hideProfile.visible {
     display: block;
+}
+
+ul {
+    font-size: 20px;
 }
