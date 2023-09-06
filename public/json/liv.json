@@ -1,0 +1,35 @@
+{
+    "me":{
+        "name": "Liv Roback", 
+        "year": "Senior",
+        "birthday": "September 20th, 2001", 
+        "hometown": "Dallas, Pennsylvania",
+        "email": "ojr224@lehigh.edu",
+        "major": "Computer Science & Engineering (CSE)", 
+        "classes": ["CSE 303", "CSE 302", "CSE 281", "EES 002", "DES 072"], 
+        "favorite tv shows": ["Stranger Things, Narcos, Family Guy, Seinfeld, Cobra Kai, The Bear"],
+        "music":[
+            {
+                "name": "Drake", 
+                "favorite song": "Hours in Silence"
+            },
+
+            {
+                "name": "Miley Cyrus", 
+                "favorite song": "Rose Colored Lenses"
+            },
+            {
+                "name": "SZA", 
+                "favorite song": "20 Something"
+            },
+            {
+                "name": "Travis Scott", 
+                "favorite song": "HYAENA"
+            }
+        ]
+         
+    }
+
+
+
+}

@@ -2,13 +2,47 @@ body {
     background-color: #CBC3E3;
 }
 
+.myName, .profile{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: -2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+
+}
+
+.myPic{
+    border-radius: 20px;
+    width: 175px;
+    height: auto;
+}
+
+p.intro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: -2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
 p {
     margin-left: 15px;
     margin-top: 10px;
+    font-size: 25px;
 }
 
 .ui.basic.padded.segment {
-    margin-top: 750px;
+    margin-top: 500px;
 }
 
 .ui.grid{
@@ -18,16 +52,15 @@ p {
     text-align: center;
 }
 
-.seven.wide.column{
+.two.wide.column{
     background-color: #A653F5;
+    height: 500px;
 }
 
-.six.wide.column{
+.three.wide.column{
     background-color: #65B8BF;
+    height: 500px;
 }
 
-.ten.six.wide.column{
-    background-color: aquamarine;
-}
 
 
