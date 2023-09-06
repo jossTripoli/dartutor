@@ -107,6 +107,11 @@ app.get('/people/:name', (req, res) => {
     }
 });
 
+//Route for viewing caden's extra page
+app.get('people/caden/message', (req, res) => {
+    res.render("people/caden/message");
+});
+
 // Route for viewing PUG kitchen sink page
 app.get('/kitchenSink', (req, res) => {
     res.render('kitchenSink');
