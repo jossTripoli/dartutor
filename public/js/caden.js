@@ -7,6 +7,5 @@ $(document).ready(function() {
         $('#hideProfile').toggleClass('hidden visible');
         // transition for the hidden profile
         $('#hideProfile').transition('flash');
-
     });
 });

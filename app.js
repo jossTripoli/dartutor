@@ -107,9 +107,9 @@ app.get('/people/:name', (req, res) => {
     }
 });
 
-//Route for viewing caden's extra page
-app.get('people/caden/message', (req, res) => {
-    res.render("people/caden/message");
+//Route for viewing caden's extra PUG page
+app.get('/people/caden/message', (req, res) => {
+    res.render('people/caden/message');
 });
 
 // Route for viewing PUG kitchen sink page
