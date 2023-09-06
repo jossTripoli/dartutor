@@ -3,20 +3,22 @@ extends ../../layout
 block content
     .ui.container
         br
-        .ui.padded.segment
-            a(href='/')
-                i.left.arrow.huge.icon    
-            // h1 #{name}
-            .ui.card
-                .content 
-                    a.header Caden Wright 
-                    .meta 
-                        span.date Fall 2023
-                .ui.green.large.button#showProfile View Profile 
-                .extra.content 
-                    a
-                        i.moon.icon
-                        | It's great to be here 
+        a(href='/')
+            i.left.arrow.huge.icon
+        .ui.grid
+            .six.wide.column 
+                .ui.basic.padded.segment    
+                    // h1 #{name}
+                    .ui.card
+                        .content 
+                            a.header Caden Wright 
+                            .meta 
+                                span.date Fall 2023
+                        .ui.green.large.button#showProfile View Profile 
+                        .extra.content 
+                            a
+                                i.moon.icon
+                                | It's great to be here 
 
 block styles 
     link(rel='stylesheet', href='/css/caden.css')  
