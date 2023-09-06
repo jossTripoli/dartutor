@@ -2,6 +2,10 @@ body {
     background-color: seashell;
 }
 
+h3 {
+    padding-top: 10px;
+}
+
 .six.wide.column {
     margin: auto;
 }
@@ -14,3 +18,7 @@ body {
     display: block;
 }
 
+.item {
+    margin-left: 25px;
+    padding-bottom: 10px;
+}
