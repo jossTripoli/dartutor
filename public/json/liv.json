@@ -7,7 +7,7 @@
         "email": "ojr224@lehigh.edu",
         "major": "Computer Science & Engineering (CSE)", 
         "classes": ["CSE 303", "CSE 302", "CSE 281", "EES 002", "DES 072"], 
-        "favorite tv shows": ["Stranger Things, Narcos, Family Guy, Seinfeld, Cobra Kai, The Bear"],
+        "tv": ["Stranger Things", "Narcos", "Family Guy", "Seinfeld", "Cobra Kai", "The Bear"],
         "music":[
             {
                 "name": "Drake", 

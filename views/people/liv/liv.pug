@@ -5,23 +5,36 @@ block content
         a(href='/')
             i.left.arrow.huge.icon  
         .ui.grid
-            .two.wide.column
-                p.myName Liv Roback 
-                .ui.card
+            .two.wide.column   
+                .ui.breadcrumb
+                    .section Home
+                    .divider /
+                    .active.section Liv
+
+                p.myName Welcome!
+                div
                     img.myPic(src='/images/liv/liv_photo.jpg')
 
                 .ui.visible.message 
                     p.intro Name: Liv Roback 
                     p.intro Email: ojr224@lehigh.edu
-                    p.intro Graduation Year: 2024
 
-
-                .ui.teal.button Click to Learn About Me!
+                .ui.violet.button#showInformation Click to Learn More About Liv
+                div
+                .ui.up.pointing.label You Should Really Click...
             
-            .three.wide.column
-                div jlkdjflkd
-        br
-
+            .three.wide.column#RightCol
+                .ui.active.inverted.dimmer#Dimmer
+                     .ui.indeterminate.text.loader#Loader Waiting For You to Click...
+                .content#Menu
+                    p.facts Name: #{data.me.name}
+                    p.facts Year: #{data.me.year}
+                    p.facts Birthday: #{data.me.birthday}
+                    p.facts Hometown: #{data.me.hometown}
+                    p.facts Major: #{data.me.major}
+                    p.facts Classes: #{data.me.classes}
+                    p.facts Favorite TV Shows: #{data.me.tv}
+                    em.medium(data-emoji=":butterfly:")
 
 
 
