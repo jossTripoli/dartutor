@@ -103,6 +103,11 @@ app.get("/people/:name", (req, res) => {
   }
 });
 
+//Route for viewing caden's extra PUG page
+app.get('/people/caden/message', (req, res) => {
+    res.render('people/caden/message');
+});
+
 app.get("/hua2", (req, res) => {
   res.render("people/hua/hua2");
 });

@@ -1,0 +1,28 @@
+body {
+    background-color: seashell;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+.six.wide.column {
+    margin: auto;
+}
+
+#hideProfile {
+    display: none;
+}
+
+#hideProfile.visible {
+    display: block;
+}
+
+#hideProfile.transition {
+    transition: display 2s ease-in-out;
+}
+
+.item {
+    margin-left: 25px;
+    padding-bottom: 10px;
+}

@@ -3,7 +3,52 @@ extends ../../layout
 block content
     .ui.container
         br
-        .ui.padded.segment
-            a(href='/')
-                i.left.arrow.huge.icon    
-            h1 #{name}
+        a(href='/')
+            i.left.arrow.huge.icon
+        .ui.grid
+            .six.wide.column 
+                .ui.basic.padded.segment    
+                    // h1 #{name}
+                    .ui.card
+                        .ui.image 
+                            img.content(src='/images/caden/caden.jpg')
+                        .content 
+                            a.header Caden Wright 
+                            .meta 
+                                span.date Fall 2023
+                        .ui.green.large.button#showProfile(data-content="Click to see my profile!") View Profile
+                        .extra.content 
+                            a
+                                i.moon.icon
+                                | It's great to be here 
+            .ten.wide.column#hideProfile 
+                br
+                .ui.segment 
+                    h1 My Profile
+                    .ui.divided.items 
+                    .item 
+                        h3 Name 
+                        p= data.person.name
+                    .item 
+                        h3 Email 
+                        p= data.person.email 
+                    .item 
+                        h3 Hobbies 
+                        ul 
+                            each hobby in data.person.hobbies 
+                                li= hobby 
+                    .item
+                        h3= data.person.pet 
+                        img.ui.small.image(src='/images/caden/juniper.jpg')
+                        p This is my pet cat!
+                .ui.message 
+                    h2 I am really excited to get started!
+                a(href='/people/caden/message')
+                    i.hippo.huge.icon
+
+                    
+block styles 
+    link(rel='stylesheet', href='/css/caden.css')  
+
+block scripts
+    script(src="/js/caden.js")
