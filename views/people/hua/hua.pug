@@ -3,7 +3,74 @@ extends ../../layout
 block content
     .ui.container
         br
-        .ui.padded.segment
-            a(href='/')
-                i.left.arrow.huge.icon    
-            h1 #{name}
+        .ui.padded
+                a(href='/')
+                    i.left.arrow.huge.icon
+                a(href='/hua2')
+                    i.right.arrow.huge.icon
+        //- .ui.center.aligned.segment
+        .ui.padded.grid
+            .ui.one.column.centered.grid
+                h1 #{"Hi! I'm "+ data.person.name +"!"} 
+                .meta
+                    span.date #{data.person.grade + ", " + data.person.major}
+                .meta
+                    span.date #{data.person.email}
+                i.china.flag
+                i.america.flag
+                .ui.medium.circular.rotate.reveal.image#huaMainImg
+                    img.hidden.content(src=`/images/hua/hua.jpg`)
+                    img.visible.content(src=`/images/hua/girl.png`)
+        .ui.padded.centered.grid
+            .ui.button#getRandomHobby #{"Get Random Hobby: "}
+            p#displayHobby
+        .ui.centered.grid
+            .ui.center.aligned.statistics.segment#stats
+                .statistic
+                    .value
+                    | 124.5
+                    .label
+                    | Credits Earned
+                .statistic
+                    .value
+                    | 5.5
+                    .label
+                    | Credits Left
+                .statistic
+                    .value
+                    | 8
+                    .label
+                    | Months Until Graduation
+
+
+        h2 #{"Photography"}
+        .ui.top.attached.tabular.menu
+            a.active.item(data-tab='one') Scenery
+            a.item(data-tab='two') Flower
+            a.item(data-tab='three') Food
+        .ui.bottom.attached.active.tab.segment(data-tab='one')
+            img.ui.medium.image#tabPics(src=`/images/hua/Scene-1.jpg`)
+            img.ui.medium.image#tabPics(src=`/images/hua/Scene-2.jpg`)
+            img.ui.medium.image#tabPics(src=`/images/hua/Scene-3.jpg`)
+            img.ui.medium.image#tabPics(src=`/images/hua/Scene-4.jpg`)
+            img.ui.medium.image#tabPics(src=`/images/hua/Scene-5.jpg`)
+        .ui.bottom.attached.tab.segment(data-tab='two')
+            img.ui.medium.image#tabPics(src=`/images/hua/Flower-1.jpg`)
+            img.ui.medium.image#tabPics(src=`/images/hua/Flower-2.jpg`)
+            img.ui.medium.image#tabPics(src=`/images/hua/Flower-3.jpg`)
+            img.ui.medium.image#tabPics(src=`/images/hua/Flower-4.jpg`)
+            img.ui.medium.image#tabPics(src=`/images/hua/Flower-5.jpg`)
+        .ui.bottom.attached.tab.segment(data-tab='three')
+            img.ui.medium.image#tabPics(src=`/images/hua/Food-1.jpg`)
+            img.ui.medium.image#tabPics(src=`/images/hua/Food-2.jpg`)
+            img.ui.medium.image#tabPics(src=`/images/hua/Food-3.jpg`)
+            img.ui.medium.image#tabPics(src=`/images/hua/Food-4.jpg`)
+            img.ui.medium.image#tabPics(src=`/images/hua/Food-5.jpg`)
+            
+
+
+block styles 
+    link(rel='stylesheet', href='/css/hua.css')  
+
+block scripts
+    script(src="/js/hua.js")

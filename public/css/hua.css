@@ -1,0 +1,13 @@
+#huaMainImg {
+  border-radius: 50%;
+  margin: auto;
+}
+
+#tabPics {
+  margin: auto;
+  padding: 1%;
+}
+
+body {
+  background-color: rgb(252, 231, 234);
+}
