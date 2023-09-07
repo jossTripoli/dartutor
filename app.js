@@ -107,6 +107,16 @@ app.get("/hua2", (req, res) => {
   res.render("people/hua/hua2");
 });
 
+//Route added by liv to take to another pug page 
+app.get('/people/liv/extra', (req, res) => {
+        res.render("people/liv/next_liv");
+});
+
+
+
+
+
+
 // Route for viewing PUG kitchen sink page
 app.get("/kitchenSink", (req, res) => {
   res.render("kitchenSink");
