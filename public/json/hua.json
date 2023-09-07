@@ -1,0 +1,15 @@
+{
+  "person": {
+    "name": "Hua Chen",
+    "email": "hjc324@lehigh.edu",
+    "grade": "Senior",
+    "major": "CSE",
+    "hobbies": [
+      "Drawing on my iPad",
+      "Playing games",
+      "Trying out new recipes",
+      "Virtual Scrapbooking",
+      "Photography"
+    ]
+  }
+}

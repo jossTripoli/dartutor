@@ -3,7 +3,47 @@ extends ../../layout
 block content
     .ui.container
         br
-        .ui.padded.segment
+        .ui.segment
             a(href='/')
                 i.left.arrow.huge.icon    
-            h1 #{name}
+        
+        .ui.segment
+            .ui.center.aligned.header
+                h1 Bio
+            .ui.relaxed.grid
+                .two.column.row 
+                    .column
+                        h2 Name
+                        h3 Erick Tepan
+                    .column
+                        a.ui.medium.image
+                            img.protrait(src=`/images/erick/erick-07-2023.png`)
+                .four.column.row 
+                    .column
+                        h2 Pronouns 
+                        p= data.person.pronouns
+                .two.column.row 
+                    .column
+                        h2 Email
+                        p= data.person.email
+                .three.column.row 
+                    .column
+                        h2 Pets 
+                        p= data.person.pet
+                    .column
+                        a.ui.medium.image
+                            img.protrait(src=`/images/erick/sussy_box.jpg`)
+                    .column   
+                        a.ui.medium.image
+                            img.protrait(src=`/images/erick/sussy_paysbills.jpg`)
+                .one.column.row 
+                    .column
+                        h2 Interests
+                        p= data.person.interest
+                .one.column.row
+                    .column
+                        h2 Sports
+                        p=  data.person.sports
+
+block styles 
+    link(rel='stylesheet', href='/css/erick.css')  
