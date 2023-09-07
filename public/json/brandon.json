@@ -1,0 +1,11 @@
+{
+    "person": {
+        "name": "Brandon Arriaga",
+        "year": "Junior",
+        "email": "baa325@lehigh.edu",
+        "hobbies": ["Listening to Music","Sports","Video Games","Playing Guitar","Hiking/Exploring"],
+        "music": ["Classic Rock", "Indie Rock", "Grunge","Nu Metal", "Drum and Bass"],
+        "sports": ["LA Lakers","Chicago Bears","LA Dodgers", "Manchester City"],
+        "fun_facts": ["I'm from California","I can speak Spanish and French"]
+    }
+}
