@@ -11,14 +11,13 @@ block content
                     .divider /
                     .active.section Liv
 
-                p.myName Welcome!
+                p.myName Welcome to my Profile!
                 div
-                    img.myPic(src='/images/liv/liv_photo.jpg')
-
-                .ui.visible.message 
-                    p.intro Name: Liv Roback 
-                    p.intro Email: ojr224@lehigh.edu
-
+                    .ui.card
+                        .image
+                            img(src="/images/liv/liv_photo.jpg")
+                        .content
+                            span.date Joined in 2023
                 .ui.violet.button#showInformation Click to Learn More About Liv
                 div
                 .ui.up.pointing.label You Should Really Click...
@@ -35,6 +34,7 @@ block content
                     p.facts Classes: #{data.me.classes}
                     p.facts Favorite TV Shows: #{data.me.tv}
                     em.medium(data-emoji=":butterfly:")
+                .ui.horizontal.statistic
 
 
 
