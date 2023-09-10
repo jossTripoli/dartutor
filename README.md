@@ -2,7 +2,8 @@
 Basic node app to learn technology to work on DART Learn site
 
 # Instructions
-[Please view this Google Doc](https://docs.google.com/document/d/1g_hCLhgzxJKu2Ar2O4zb5vYJlYc3hMJzd8vHKx2WHts/edit?usp=sharing)
+- [Week 1 Tasks](https://docs.google.com/document/d/1g_hCLhgzxJKu2Ar2O4zb5vYJlYc3hMJzd8vHKx2WHts/edit?usp=sharing)
+- [Week 2 Tasks](https://docs.google.com/document/d/1tEj1ILoEHVmVHv1aIuN0_S8ZbmXaTaSOY-zM6Kw3jt4/edit?usp=sharing)
 
 # Project Structure
 
