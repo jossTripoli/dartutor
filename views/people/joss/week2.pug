@@ -1,0 +1,176 @@
+extends ../../layout 
+
+block content
+    .ui.container
+        br
+        a(href='/')
+            i.left.arrow.huge.icon    
+        h1 #{name} week 2
+
+        .limit
+            br
+
+            //-  Apple email example
+            //- https://dart-test.socialsandbox.xyz/challenge2/identity
+            .ui.raised.segments#apple-example
+                //- .title
+                //-     .ui.basic.segment
+                //-     i.envelope.outline.icon
+                //-     | Customer Service Follow-up
+                .content
+                    .ui.segment
+                        i.apple.big.icon
+                        .ui.header.centered.aligned(style='font-weight: bolder;') Thanks for choosing Apple.
+                        p Dear Customer,
+                        p Thank you for contacting Apple Customer Service. We understand that you're facing some issues with your Apple device, and we're here to help!
+                        p Could you please provide us with more details about the problem you're experiencing? This will help us better understand the situation and provide you with the appropriate solution.
+                        p.purple-text You can reply to this email with the information attached.
+                        p.purple-text Thank you,
+                        p.purple-text Sarah (she/her)
+                        p.purple-text iTunes Store Customer Support
+                        p
+                            a(href='' style="pointer-events: none;") http://www.apple.com/support/itunes
+
+            //- PayPal email example
+            //- https://dart-test.socialsandbox.xyz/challenge2/identity
+            .ui.raised.segments#paypal-expample
+                .content
+                    .ui.segment#white-bg
+                        .whiteTop
+                            .ui.header#pay-header Pay.
+                                span#service-text Service
+                                span#secure-text Secure
+                        .emailContent
+                            p Dear Client,
+                            p Recently, your account was reviewed and flagged because of a potential connection to some fraudulent transactions. To avoid an eventual restriction to your account, please verify your informations by logging in to our Litigations Manager.
+                        .whiteTop
+                            button.ui.button.basic.circular#check-button
+                                | Check my account
+
+            //- Dollar Tree email example
+            //- https://dart-test.socialsandbox.xyz/submod2/learn14/identity
+            .htmlImage
+                .ui.raised.segments
+                    .metadata
+                        .ui.basic.segment
+                            p
+                                strong From: 
+                                | Dollar Tree &lt;
+                                span dollar@tree.com
+                                | &gt;
+                            p
+                                strong To: 
+                                | email@gmail.com
+                            p
+                                strong Date: 
+                                | 9/10/2023
+                            p
+                                strong Subject: 
+                                | Claim your prize!
+                    .content.dollar-tree-border
+                        .ui.basic.segment
+                            h2.ui.green.make-italic.sub.header.centered.aligned Dollar Tree
+                            h1.ui.green.make-italic.header.centered.aligned CONGRATULATIONS!
+                            p
+                                | This email has only been sent to 
+                                span.green 10
+                                b  selected customers
+                                |  in your area. In this way, we would like to thank you for being here for us.
+                            p
+                                | You are one of the current customers to win an 
+                                span.green exclusive Dollar Tree Award
+                                | .
+                            p All you have to do is confirm the receipt of this email. Thank and good luck.
+                            p(style='text-align: center;')
+                                | Please confirm before 
+                                span#future-date.green
+                            div(style='text-align: center;')
+                                button#confirmButton.ui.green.huge.button Confirm here
+            br
+            //-  https://dart-test.socialsandbox.xyz/submod2/learn14/identity
+            .htmlImage 
+                .ui.raised.segments
+                    .metadata
+                        .ui.basic.segment
+                            p
+                                strong From: 
+                                | Netflix.com &lt;
+                                span no-reply@ripnet.com
+                                | &gt;
+                            p
+                                strong To: 
+                                | example@gmail.com
+                            p
+                                strong Date: 
+                                | 9/10/2023
+                            p
+                                strong Subject: 
+                                | Billing Issue
+                    .content
+                        br
+                        .ui.basic.segment
+                            img#netflix-logo(src='/images/netflix-logo.png' alt='Netflix logo')
+                            .ui.header.centered.aligned Unable to bill your membership
+                            p
+                                | We&apos;re sorry to inform you that we were unable to bill your monthly membership plan. To ensure that the service will not be canceled, please update your payment information.
+                            p
+                                | To update your payment information, click: 
+                                u#netflixSignIn Sign In
+                                |  to Netflix then you will be prompted to update your information.
+                            br
+            br
+            br
+            br
+            .openEmailContainer(id="openEmail-1")
+                .ui.padded.segment
+                    span#subjectLine
+                        | Order Confirmation - Norton Renewal
+                    #inboxLabel.ui.huge.label
+                        | Spam
+                        i.delete.icon
+                    //- .ui.right.floated.header
+                    //-   span#openDate Aug 31
+                    //- .ui.horizontal.divider
+                    .ui.icon.message
+                        i.exclamation.circle.icon 
+                        .content.senderInfo
+                            .header
+                                | NORTON LLC
+                                span.fromEmail &lt;subscriptions@deskera.com&gt;
+                                span
+                    .ui.message#spam-warning
+                        //- .header
+                        //-   | Changes in Service
+                        p
+                            | Why is this message in Spam? It's similar to messages that were identified as spam in the past.
+                        .ui.button Report not spam
+
+                    p#emailContent
+                        | Hi,
+                        span
+                        br           
+                        | This is to inform you that your annual subscription has been renewed successfully.
+                        br
+                        | Thanks for having service with us. Hence we have charged you 399 USD for your yearly subscription. Here are your order details:
+                        br
+                        br
+                        | Order ID: # 33L-6372V-M8
+                        br
+                        | Product name: Norton 360
+                        span
+                        br
+                        | Total Amount: 399.00 USD 
+                        span
+                        br
+                        | Transaction Data: #{currentDate}
+                        br 
+                        br
+                        | To upgrade/cancel your subscription, please contact our customer service desk: +1 (818) 835-5920
+                        br
+                        br
+                        | Cancellation after 72 hours from this email won't be valid for a Refund.
+
+
+
+block styles 
+    link(rel='stylesheet', href='/css/joss-week2.css')  

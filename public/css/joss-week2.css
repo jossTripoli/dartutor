@@ -1,0 +1,248 @@
+/* default font size of 1rem / 16px. This is the root element so everything else's size will be relative to this */
+/* Set font size for normal text on page to 1.5rem, 24px, which is what the National Institute on Aging uses for their page's body text */
+html {
+    font-size: 1rem;
+}
+
+/* for all email examples to limit their width */
+.limit {
+    position: relative;
+    padding-left: 9rem; 
+    padding-right: 9rem;
+    margin: 0 auto;
+    
+}
+
+/* Styles for identity challenge question 1 apple email */
+
+#apple-example .purple-text {
+    color: #804477;
+    font-weight: bold;
+}
+
+#apple-example .ui.raised.segments,
+#apple-example .ui.segment,
+#apple-example label {
+    font-size: 1.5rem !important;
+}
+
+#apple-example i.apple.big.icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #A5A6AE;
+}
+
+#apple-example .ui.header.centered.aligned {
+   font-weight: bolder;
+}
+
+#apple-example #q1-quiz-partial p {
+    font-size: 1.5rem !important;
+}
+
+#apple-example ui.header.centered.aligned {
+    font-weight: bolder;
+    font-size: 1.2rem !important;
+}
+
+
+
+/* Styles for identity challenge question 2 paypal email */
+
+
+#paypal-expample #white-bg {
+    background: #F3F3FF;
+    margin: 0;
+    padding: 0;
+}
+
+#paypal-expample .whiteTop {
+    background: white !important;
+    width: 100% !important;
+    padding: 1em 1em !important;
+}
+
+#paypal-expample .emailContent {
+    padding: 1em 1em;
+}
+
+#paypal-expample #pay-header {
+    font-weight: bolder;
+    color: #253B80;
+    font-style: italic;
+}
+
+#paypal-expample #service-text {
+    color: #189BD7;
+}
+
+#paypal-expample #secure-text {
+    color: #A5A6AE;
+    font-size: 0.8rem;
+    font-style: normal;
+}
+
+#paypal-expample #check-button {
+    background-color: #16AEFF;
+    color: white;
+    pointer-events: none;
+    font-weight: bold;
+}
+
+
+/* Styles for dollar tree email */
+/* submod 2 q1.html partial */
+.make-italic {
+    font-style: italic;
+}
+
+.make-italic:first-child {
+    font-size: 1.6rem !important;
+}
+.selected-customers {
+    font-weight: bold;
+}
+
+.htmlImage .dollar-tree-border .green {
+    color: #589E3C;
+    font-weight: bold;
+}
+
+.htmlImage .dollar-tree-border {
+    border: 6px solid #589E3C;
+    margin: 10px;
+    border-radius: 15px; 
+}
+
+
+.htmlImage #confirmButton {
+    background-color: #589E3C;
+    color: white;
+    border-radius: 15px; 
+    width: 400px;
+    pointer-events: none;
+}
+
+.htmlImage #netflix-logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.htmlImage #netflixSignIn {
+    color: #E50914;
+}
+
+.visitLink {
+    text-decoration: underline;
+}
+
+
+/*  Email metadata styles ie from, to, date gray section */
+.metadata {
+    background-color: rgb(243,244,245);
+}
+
+.metadata p {
+    line-height: 1rem;
+}
+
+.metadata p strong {
+    font-weight: 600;
+}
+
+
+
+
+
+/* Norton email example css */
+
+.emailHeader {
+    background-color: #F5F5F5;
+    color: #2165AE;
+    border-bottom: 4px solid #2165AE;
+    padding: 20px;
+    margin: 0;
+}
+
+i.user.circle.icon {
+    color: #2165AE;
+}
+
+p, h3, span {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+#subjectLine {
+    font-size: 1.6rem;
+    /* margin-left: 100px; */
+    font-weight: bold;
+}
+
+span.subject {
+    color: #747471;
+    font-weight: lighter;
+}
+
+
+.senderInfo {
+    font-size: 1.5rem;
+}
+
+.senderInfo span {
+    font-size: 1.5rem;
+}
+
+.ui.icon.message {
+    background-color: white !important;
+    box-shadow: none !important;
+}
+
+.fromEmail {
+    color: #747471;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.ui.vertical.segment .row {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.emailSimContainer a {
+    color: black;
+    cursor: pointer;
+}
+
+.emailSimContainer a:hover {
+    color: black;
+}
+
+.fakeLink {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fakeLink:hover {
+    text-decoration: underline;
+}
+
+.ui.right.floated.header.numContainer {
+    margin-top: 5px;
+}
+
+#inboxLabel {
+    margin-top: -5px;
+    margin-left: 15px;
+    padding: 6px;
+    background: #EEEEEE;
+    border: 1px solid black;
+    /* font-size: 1.5rem; */
+}
+
+i.exclamation.circle.icon  {
+    color: #666666;
+}

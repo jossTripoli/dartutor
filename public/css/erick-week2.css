@@ -1,0 +1,14 @@
+/* default font size of 1rem / 16px. This is the root element so everything else's size will be relative to this */
+/* Set font size for normal text on page to 1.5rem, 24px, which is what the National Institute on Aging uses for their page's body text */
+html {
+    font-size: 1rem;
+}
+
+/* for all email examples to limit their width */
+.limit {
+    position: relative;
+    padding-left: 9rem; 
+    padding-right: 9rem;
+    margin: 0 auto;
+    
+}

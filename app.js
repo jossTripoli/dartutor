@@ -103,6 +103,15 @@ app.get("/people/:name", (req, res) => {
   }
 });
 
+
+
+// Route for week 2 task pages
+app.get("/week2/:name", (req, res) => {
+  const name = req.params.name;
+  res.render("people/" + name + "/week2", { name: name });
+});
+
+
 //Route for viewing caden's extra PUG page
 app.get('/people/caden/message', (req, res) => {
     res.render('people/caden/message');
