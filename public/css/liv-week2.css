@@ -12,3 +12,12 @@ html {
 .content{
     text-align: center;
 }
+
+span.date{
+    color: #2165AE;
+}
+
+.ui.card{
+    border-radius: 10px;
+    border: 3px solid #2165AE;
+}
