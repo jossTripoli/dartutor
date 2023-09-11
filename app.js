@@ -126,6 +126,18 @@ app.get('/people/liv/extra', (req, res) => {
         res.render("people/liv/next_liv");
 });
 
+//Route added by liv to take you to avatar.pug
+app.get('/people/liv/avatar', (req, res) => {
+  res.render("people/liv/avatar");
+});
+
+
+//Route added by liv to take you to iphone.pug
+app.get('/people/liv/iphone', (req, res) => {
+  res.render("people/liv/iphone");
+});
+
+
 
 
 
