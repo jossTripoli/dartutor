@@ -3,14 +3,14 @@ extends ../../layout
 
 block content
     .ui.grid
-        .five.wide.column
-            h1.userTitle Hello User,
+        .four.wide.column
+            p.userTitle Hello User,
             p.smallTitle Before starting, would you like to select one of our agents to learn with you?
 
     .ui.stackable.two.column.grid
         .two.wide.column
             .ui.card
-                .image
+                .image.daring
                     img(src='/images/liv/daring.png')
                 .content
                     a.header Name: Daring
@@ -19,7 +19,7 @@ block content
                     button.ui.blue.basic.button Select
         .two.wide.column
             .ui.card
-                .image
+                .image.valiant
                     img(src='/images/liv/valiant.png')
                 .content
                     a.header Name: Valiant
@@ -29,7 +29,7 @@ block content
     .ui.stackable.two.column.grid
         .two.wide.column
             .ui.card
-                .image
+                .image.dartie
                     img(src='/images/liv/dartie.png')
                 .content
                     a.header Name: Dartie
@@ -38,14 +38,16 @@ block content
                     button.ui.blue.basic.button Select
         .two.wide.column
             .ui.card
-                .image
-                    img(src='/images/liv/intrepid.png')
+                .image.intrepid
+                    img(src='/images/liv/Intrepid.png')
                 .content
                     a.header Name: Intrepid
                     .meta
                     span.date Fearless, Curious, Inspiring, Resilient
                     button.ui.blue.basic.button Select
-    button.ui.blue.basic.button.centered I prefer to learn on my own
+    .ui.grid
+        .four.wide.column
+            button.ui.blue.basic.button I prefer to learn on my own
 
 block styles 
     link(rel='stylesheet', href='/css/liv-week2.css') 
