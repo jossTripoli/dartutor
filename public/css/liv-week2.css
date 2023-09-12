@@ -11,6 +11,11 @@ html {
 /* This is how I center the font in each of the boxes */
 .content{
     text-align: center;
+    font-family: 'Inter';
+}
+
+.smallTitle{
+    font-family: 'Inter';
 }
 
 span.date{
@@ -26,4 +31,17 @@ button.ui.blue.basic.button{
     border-radius: 10px;
     margin-top: 15px;
     margin-bottom: 10px;
+    font-family: 'Armata';
+}
+
+.ui.grid{
+}
+
+.ui.stackable.two.column.grid{
+
+}
+
+.userTitle{
+    letter-spacing: 2px;
+    font-family: 'Armata';
 }

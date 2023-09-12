@@ -2,46 +2,52 @@ extends ../../layout
 
 
 block content
+    .ui.grid
+        .five.wide.column
+            h1.userTitle Hello User,
+            p.smallTitle Before starting, would you like to select one of our agents to learn with you?
 
     .ui.stackable.two.column.grid
-        .column
+        .two.wide.column
             .ui.card
                 .image
-                    img(src='/images/liv/man_avatar.jpg')
+                    img(src='/images/liv/daring.png')
                 .content
                     a.header Name: Daring
                     .meta
                     span.date Bold, Fearless, Confident, Inspiring
                     button.ui.blue.basic.button Select
-        .column 
+        .two.wide.column
             .ui.card
                 .image
-                    img(src='/images/liv/man_avatar.jpg')
+                    img(src='/images/liv/valiant.png')
                 .content
                     a.header Name: Valiant
                     .meta
                     span.date Courageous, Heroic, Noble, Inspiring
                     button.ui.blue.basic.button Select
     .ui.stackable.two.column.grid
-        .column
+        .two.wide.column
             .ui.card
                 .image
-                    img(src='/images/liv/man_avatar.jpg')
+                    img(src='/images/liv/dartie.png')
                 .content
                     a.header Name: Dartie
                     .meta
                     span.date Swift, Playful, Energetic, Loyal
                     button.ui.blue.basic.button Select
-        .column 
+        .two.wide.column
             .ui.card
                 .image
-                    img(src='/images/liv/man_avatar.jpg')
+                    img(src='/images/liv/intrepid.png')
                 .content
                     a.header Name: Intrepid
                     .meta
                     span.date Fearless, Curious, Inspiring, Resilient
                     button.ui.blue.basic.button Select
-
+    button.ui.blue.basic.button.centered I prefer to learn on my own
 
 block styles 
-    link(rel='stylesheet', href='/css/liv-week2.css')  
+    link(rel='stylesheet', href='/css/liv-week2.css') 
+    link(href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet')
