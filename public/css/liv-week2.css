@@ -7,6 +7,7 @@ html {
 .content{
     text-align: center;
     font-family: 'Inter';
+
 }
 
 .smallTitle{
@@ -20,17 +21,17 @@ span.date{
 }
 
 .image{
-
 }
 
 .ui.card{
     border-radius: 10px;
     border: 3px solid #2165AE;
+    background-color: #F9FCFF;
     
 }
 
 button.ui.blue.basic.button{
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 15px;
     margin-bottom: 10px;
     font-family: 'Armata';
@@ -49,26 +50,17 @@ button.ui.blue.basic.button{
     font-family: 'Armata';
 }
 
-.image.daring{
-    width: 301px;
-    height: 162px;
+
+.image{
+    background-color: #F9FCFF; 
 }
 
-.image.valiant{ 
-    width: 104px;
-    height: 168px;
-
+.ui.card .image {
+    background-color: #F9FCFF; 
+    border: none;
 }
 
-.image.dartie{
-    width: 181.91px;
-    height: 168px;
-
-}
-
-.image.intrepid{
-    width: 100px;
-    height: 162px;
+img.intrepid{
 
 }
 
@@ -76,6 +68,8 @@ button.ui.blue.basic.button{
     margin-bottom: -30px;
 }
 
-.two.wide.column{
-    
+
+.ui.grid.buttonGrid{
+    border-radius: 20px;
+    text-align: center;
 }
