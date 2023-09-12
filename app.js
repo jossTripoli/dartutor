@@ -117,6 +117,19 @@ app.get('/people/caden/message', (req, res) => {
     res.render('people/caden/message');
 });
 
+//Routes for reflect pages
+app.get('/people/caden/reflect', (req, res) => {
+  res.render('people/caden/reflect');
+});
+
+app.get('/people/caden/reflect2', (req, res) => {
+  res.render('people/caden/reflect2');
+});
+
+app.get('/people/caden/reflect3', (req, res) => {
+  res.render('people/caden/reflect3');
+});
+
 app.get("/hua2", (req, res) => {
   res.render("people/hua/hua2");
 });
