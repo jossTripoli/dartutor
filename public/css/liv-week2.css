@@ -1,75 +1,59 @@
-/* default font size of 1rem / 16px. This is the root element so everything else's size will be relative to this */
+/* default font size of 1rem  (which is 16px). This is the root element so everything else's size will be relative to this */
 /* Set font size for normal text on page to 1.5rem, 24px, which is what the National Institute on Aging uses for their page's body text */
 html {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
-.content{
+#avatarContainer .content{
     text-align: center;
     font-family: 'Inter';
-
 }
 
-.smallTitle{
+#avatarContainer .smallTitle{
     font-family: 'Inter';
-    font-size: 18px;
-    margin-top: -30px;
+    font-size: 1.5rem;
 }
 
-span.date{
+#avatarContainer span.date{
     color: #2165AE;
 }
 
-.image{
+#avatarContainer .image{
 }
 
-.ui.card{
+#avatarContainer .ui.card{
     border-radius: 10px;
     border: 3px solid #2165AE;
     background-color: #F9FCFF;
-    
 }
 
-button.ui.blue.basic.button{
+#avatarContainer button.ui.blue.basic.button{
     border-radius: 20px;
     margin-top: 15px;
     margin-bottom: 10px;
     font-family: 'Armata';
 }
 
-.ui.grid{
-    margin: 10px;
-}
-
-.ui.stackable.two.column.grid{
-
-}
-
-.userTitle{
-    font-size: 34px;
+#avatarContainer .userTitle{
+    font-size: 2rem;
     font-family: 'Armata';
 }
 
-
-.image{
+#avatarContainer .image{
     background-color: #F9FCFF; 
 }
 
-.ui.card .image {
+#avatarContainer .ui.card .image {
     background-color: #F9FCFF; 
     border: none;
 }
 
-img.intrepid{
-
+/* make the cards fill the complete width given to them by the grid structure */
+#avatarContainer .ui.card {
+    width: 100%;
 }
 
-.four.wide.column{
-    margin-bottom: -30px;
-}
-
-
-.ui.grid.buttonGrid{
+#avatarContainer .ui.grid.buttonGrid{
     border-radius: 20px;
     text-align: center;
 }
