@@ -21,3 +21,9 @@ span.date{
     border-radius: 10px;
     border: 3px solid #2165AE;
 }
+
+button.ui.blue.basic.button{
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
