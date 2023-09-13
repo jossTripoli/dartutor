@@ -5,10 +5,18 @@ block content
         br
         a(href='/week2/caden')
             i.left.arrow.huge.icon   
-        .ui.segment 
+        .ui.content 
             p Do you feel more confident about recognizing scam emails and message?
             .ui.basic.button#showYes Yes
             .ui.blue.button#showNo No
+        br
+        br
+        br
+        .ui.content#hideYes 
+            p Share what you've learned and if there are any new insights or tips you've gained.
+            .ui.input 
+                input(type="text" id="textInput")
+
 
 block styles 
     link(rel='stylesheet', href='/css/caden-week2.css')  
