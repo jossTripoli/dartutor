@@ -1,5 +1,8 @@
 p {
     font-family: 'Inter', sans-serif;
+    max-width: 35rem;
+    margin: auto;
+    padding-bottom: 2rem;
 }
 
 .ui.segment {
@@ -8,7 +11,7 @@ p {
     font-size: 1.5rem;
 }
 
-.ui.blue.button {
+.ui.blue.button#showNo {
     background-color: #2165AE;
     border-radius: 20px;
     width: 15rem;
@@ -22,7 +25,7 @@ p {
     font-size: 1.5rem;
 }
 
-.ui.basic.button {
+.ui.basic.button#showYes {
     border-radius: 20px;
     width: 15rem;
     padding-left: 24px;
