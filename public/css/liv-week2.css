@@ -65,7 +65,8 @@ html {
 
 
 .ui.segments{
-    border: 3px solid #fd0068;
+    border: 5px solid #fd0068;
+    border-radius: 10px;
 }
 
 #Title .iPhone{
@@ -73,17 +74,7 @@ html {
     font-size: 5rem;
 
 }
-#Title .congrats{
 
-}
-
-#Title .selected{
-
-}
-
-#Title .asnwer{
-
-}
 
 #Congrats{
     background-color: #FD0068;
@@ -93,4 +84,6 @@ html {
 
 #confirmButton{
     background-color: #FD4319;
+    font-weight: bold;
 }
+
