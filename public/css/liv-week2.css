@@ -4,6 +4,15 @@ html {
     font-size: 1rem;
 }
 
+/* for all email examples to limit their width */
+.limit {
+    position: relative;
+    padding-left: 9rem; 
+    padding-right: 9rem;
+    margin: 0 auto;
+    
+}
+
 #avatarContainer .content{
     text-align: center;
     font-family: 'Inter';
@@ -69,14 +78,14 @@ html {
     border-radius: 10px;
 }
 
-#Title .iPhone{
+#title .iPhone{
     color: #fd0068;
     font-size: 5rem;
 
 }
 
 
-#Congrats{
+#congrats{
     background-color: #FD0068;
     color: white;
     padding: 2rem;
@@ -87,3 +96,8 @@ html {
     font-weight: bold;
 }
 
+.ui.basic.huge.segment#title,
+.ui.basic.segment#continue {
+    padding-left: 0; 
+    padding-right: 0;
+}
