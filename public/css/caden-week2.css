@@ -2,15 +2,13 @@ html {
     font-size: 1rem;
 }
 
-p {
+p#headings {
     font-family: 'Inter', sans-serif;
-    max-width: 33rem;
-    margin: auto;
-    padding-bottom: 2rem;
     text-align: left;
 }
 
 .ui.content {
+    max-width: 72%;
     margin: auto;
     text-align: center;
     font-size: 1.5rem;
@@ -45,7 +43,7 @@ p {
     font-size: 1.5rem;
 }
 
-#textInput {
+.textInput {
     width: 33rem;
     font-size: 1rem;
 }

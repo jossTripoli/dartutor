@@ -4,18 +4,15 @@ block content
     .ui.container
         br
         a(href='/week2/caden')
-            i.left.arrow.huge.icon   
+            i.left.arrow.huge.icon 
+        h1 Reflection  
         .ui.content 
-            p Do you feel more confident about recognizing scam emails and message?
-            .ui.basic.button#showYes Yes
-            .ui.blue.button#showNo No
-        br
-        br
-        br
-        .ui.content#hideNo 
-            p What area is posing a challenge for you?
+            p#headings Do you find prepared to protect yourself in the real world?
             .ui.input 
-                input(type="text" id="textInput")
+                input(type="text" class="textInput" id="question1")
+            p#headings Do you believe you can assist your family and friends in avoiding scams?
+            .ui.input 
+                input(type="text" class="textInput" id="question2")
 
 block styles 
     link(rel='stylesheet', href='/css/caden-week2.css')  
