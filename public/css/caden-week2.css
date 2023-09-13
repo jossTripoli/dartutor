@@ -45,3 +45,11 @@ p {
     width: 33rem;
     font-size: 1rem;
 }
+
+#hideYes, #hideNo {
+    display: none;
+}
+
+#hideYes.visible, #hideNo.visible {
+    display: block;
+}

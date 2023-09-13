@@ -1,10 +1,12 @@
 $(document).ready(function() {
-    // goes to yes question page
+    // displays yes question
     $('#showYes').on('click', function() {
-        window.location.href = "/people/caden/reflect2"
+        // Toggle the visibility classes
+        $('#hideYes').toggleClass('hidden visible');
     });
-    // goes to no question page
+    //displays no question
     $('#showNo').on('click', function() {
-        window.location.href = "/people/caden/reflect3"
+        // Toggle the visibility classes
+        $('#hideNo').toggleClass('hidden visible');
     });
 });
