@@ -77,11 +77,24 @@ h3{
     font-size: 1.5rem;
 }
 
+.ui.basic.segment.walmart{
+    font-size: 1.5rem;
+}
 .ui.basic.segment.subject{
     display: grid;
     font-size: 2rem;
     gap: 10px;
     grid-template-columns: auto 1fr;
+    padding: 10px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.ui.basic.segment.subject.walmart{
+    display: grid;
+    font-size: 2rem;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
     padding: 10px;
     padding-bottom: 0;
     margin: 0;
