@@ -66,4 +66,49 @@ h3{
 
 .underline-text {
     text-decoration: underline;
-  }
+}
+
+.underline-text-blue {
+    text-decoration: underline;
+    color: blue;
+}
+
+.ui.basic.segment.bruce{
+    font-size: 1.5rem;
+}
+
+.ui.basic.segment.subject{
+    display: grid;
+    font-size: 2rem;
+    gap: 10px;
+    grid-template-columns: auto 1fr;
+    padding: 10px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.ui.huge.label {
+    padding: 5px 10px;
+    margin-top: -5px;
+    margin-left: 15px;
+    max-height: 30px;
+    max-width: fit-content;
+}
+
+.ui.basic.segment.user{
+    display: grid;
+    font-size: 2rem;
+    gap: 10px;
+    grid-template-columns: auto auto 1fr;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+i.user.circle.icon{
+    color: rgb(95, 128, 249);
+    font-size: 50px;
+}
+
+.tag{
+    color:gray;
+}
