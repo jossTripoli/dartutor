@@ -1,5 +1,6 @@
 /* default font size of 1rem / 16px. This is the root element so everything else's size will be relative to this */
 /* Set font size for normal text on page to 1.5rem, 24px, which is what the National Institute on Aging uses for their page's body text */
+
 html {
     font-size: 1rem;
 }
@@ -10,5 +11,72 @@ html {
     padding-left: 9rem; 
     padding-right: 9rem;
     margin: 0 auto;
+}
+
+#AmazonSeg{
+    border-radius: 10px;
+    border: 1px solid #9D9D9D;
+    background: #FFF;
     
+    display: flex;
+    width: 602px;
+    height: 563px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+}
+
+.ui.stackable.vertical.grid {
+    width: 602px;
+    height: 563px;
+    padding-right: 40px;
+    padding-left: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AmazonLogo{
+    width: 177.89px;
+    height: 53.714px;
+}
+
+#item1{
+    display: flex;
+    padding: 10px 0px 19px 0px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 1px solid #7D7C7C;
+    
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  p{
+    color: #000;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
