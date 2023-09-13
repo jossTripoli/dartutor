@@ -57,3 +57,40 @@ html {
     border-radius: 20px;
     text-align: center;
 }
+
+#confirmButton.ui.medium.button{
+    background-color: #fd4319;
+    text-decoration: solid;
+}
+
+
+.ui.segments{
+    border: 3px solid #fd0068;
+}
+
+#Title .iPhone{
+    color: #fd0068;
+    font-size: 5rem;
+
+}
+#Title .congrats{
+
+}
+
+#Title .selected{
+
+}
+
+#Title .asnwer{
+
+}
+
+#Congrats{
+    background-color: #FD0068;
+    color: white;
+    padding: 2rem;
+}
+
+#confirmButton{
+    background-color: #FD4319;
+}
