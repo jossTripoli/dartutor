@@ -1,0 +1,34 @@
+extends ../../layout 
+
+block content
+    .ui.container
+        br
+        .ui.padded
+                a(href='/week2/hua')
+                    i.left.arrow.huge.icon
+    .ui.center.aligned.grid
+        .column.left.aligned
+            .ui.stacked.segment
+                h2 Create an account
+                p#details Please enter your details.
+                p#input Email:
+                .ui.input
+                    input(type='text' name='email')
+                p#input Password:
+                .ui.input
+                    input(type='password' name='password')
+                p#input Confirm Password:
+                .ui.input
+                    input(type='password' name='password')
+                br
+                a(href='#') Already have an account?
+                .ui.fluid.white.large.submit.button Login
+                .ui.fluid.white.large.submit.button Sign Up
+
+
+block styles 
+    link(rel='stylesheet', href='/css/hua-week2.css') 
+    link(rel='stylesheet' type='text/css' href='css/styles.css')
+
+block scripts
+    script(src="/js/hua.js")
