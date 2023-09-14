@@ -19,8 +19,8 @@ html {
     background: #FFF;
     
     display: flex;
-    width: 602px;
-    height: 563px;
+    width: 630px;
+    height: 600px;
     padding: 40px;
     flex-direction: column;
     align-items: center;
@@ -62,7 +62,7 @@ h3 {
     line-height: normal;
   }
 
-  p{
+#rowAmazon {
     color: #000;
     text-align: justify;
     font-family: 'Inter', sans-serif;
@@ -120,10 +120,102 @@ a {
 }
 
 #DropStackable{
-    width: 500px;
+    width: 520px;
     height: 600px;
-    padding-right: 30px;
+    padding-right: 20px;
     padding-left: 30px;
     flex-direction: column;
     align-items: center;
 }
+
+.TrustLogo{
+    width: 50px;
+    height: 50px;
+
+}
+
+#TrustWalletSeg{
+    border-radius: 10px;
+    border: 1px solid #9D9D9D;
+    background: #FFF;
+    
+    display: flex;
+    width: 1200px;
+    height: 900px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profileSeg {
+    border-radius: 50%;  /* Make the segment round */
+    background-color: grey;  /* Set the background color to grey */
+    display: flex;  /* Enable Flexbox */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+  }
+  
+  .TrustLogo {
+    filter: invert(1);  /* Make the icon white */
+  }
+  
+  .spanProfile {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .toMe {
+    color: rgb(75, 75, 75);
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    margin-top: 5px;
+  }
+
+  .verifyBttn {
+    background: #2165AE;
+    color: white;
+    padding: 15px 60px;  /* Increase the size by adjusting padding */
+    font-size: 18px;  /* You can also adjust the font size */
+    margin: auto;  /* Center the button */
+    display: block;  /* Required for margin: auto to work */
+    border-radius: 12px;  /* Make the edges rounder */
+    font-size: 27px;
+  }
+
+  #msgSeg {
+    border: 1px solid grey;  /* Add a grey border */
+    background-color: rgb(243, 242, 242);  /* Set a light grey background */
+     color: #000;
+    text-align: justify;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 12px;  /* Make the edges rounder */
+
+  }
+  
+  #row6{
+    font-size: 22px;
+  }
+  #rowTrust{
+    color: #000;
+    text-align: justify;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .spamBttn{
+    padding: 0;  /* Increase the size by adjusting padding */
+    margin: auto;
+    margin-left: 15px;
+  }
