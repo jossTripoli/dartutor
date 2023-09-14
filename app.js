@@ -141,6 +141,17 @@ app.get("/people/liv/extra", (req, res) => {
   res.render("people/liv/next_liv");
 });
 
+//Route added by liv to take you to avatar.pug
+app.get('/people/liv/avatarPage', (req, res) => {
+  res.render("people/liv/avatar");
+});
+
+
+//Route added by liv to take you to iphone.pug
+app.get('/people/liv/iphonePage', (req, res) => {
+  res.render("people/liv/iphone");
+});
+
 // Route for viewing PUG kitchen sink page
 app.get("/kitchenSink", (req, res) => {
   res.render("kitchenSink");
