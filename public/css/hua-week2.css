@@ -1,0 +1,90 @@
+/* default font size of 1rem / 16px. This is the root element so everything else's size will be relative to this */
+/* Set font size for normal text on page to 1.5rem, 24px, which is what the National Institute on Aging uses for their page's body text */
+html {
+  font-size: 1rem;
+}
+
+body {
+  background: linear-gradient(to bottom, #2165ae, #091d32);
+}
+
+/* Then use font-size of at least 1.5rem for everything */
+
+/* for all email examples to limit their width */
+.limit {
+  position: relative;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  margin: 0 auto;
+}
+
+.column {
+  max-width: 500px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.ui.fluid.large.teal.submit.button {
+  margin-top: 5%; /* You can adjust the values as needed */
+}
+
+.ui.stacked.segment {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+p {
+  margin: 0 0 0;
+}
+
+@font-face {
+  font-family: "Armata-Regular";
+  src: url("font/Armata/Armata-Regular.ttf") format("ttf");
+}
+
+h2 {
+  margin: 1em 0 0;
+  font-family: "Armata-Regular", sans-serif;
+}
+
+#input {
+  margin: 0 0 0;
+}
+
+#details {
+  margin: 0 0 1em;
+}
+
+.blue {
+  background-color: black;
+  /* background-color: #2864ac; */
+}
+
+.ui.button {
+  background: white;
+  color: #2864ac;
+  border: 1px solid #2864ac;
+  border-radius: 20px;
+  margin: 0.75em 0 0.75em;
+  padding: 0.35em 1.5em 0.35em;
+}
+
+.ui.button:hover {
+  background: #2864ac;
+  color: white;
+}
+
+.ui.input {
+  margin: 0 0 1em;
+  width: 370px;
+}
+.ui.input > input {
+  line-height: 0;
+  border: 1px solid rgba(0, 0, 2);
+}
+
+.ui.input > input:not([type="color"]) {
+  border: 1px solid rgba(0, 0, 2);
+}

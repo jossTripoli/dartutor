@@ -103,33 +103,43 @@ app.get("/people/:name", (req, res) => {
   }
 });
 
-
-
 // Route for week 2 task pages
 app.get("/week2/:name", (req, res) => {
   const name = req.params.name;
   res.render("people/" + name + "/week2", { name: name });
 });
 
+// Hua's Week 2 Route for Login Page
+app.get("/week2/:name/login", (req, res) => {
+  const name = req.params.name;
+  res.render("people/" + "hua" + "/login", { name: name });
+});
+
+// Hua's Week 2 Route for Signup Page
+app.get("/week2/:name/signup", (req, res) => {
+  const name = req.params.name;
+  res.render("people/" + name + "/signup", { name: name });
+});
+
+// Hua's Week 2 Route for Forgot Page
+app.get("/week2/:name/forgot", (req, res) => {
+  const name = req.params.name;
+  res.render("people/" + name + "/forgot", { name: name });
+});
 
 //Route for viewing caden's extra PUG page
-app.get('/people/caden/message', (req, res) => {
-    res.render('people/caden/message');
+app.get("/people/caden/message", (req, res) => {
+  res.render("people/caden/message");
 });
 
 app.get("/hua2", (req, res) => {
   res.render("people/hua/hua2");
 });
 
-//Route added by liv to take to another pug page 
-app.get('/people/liv/extra', (req, res) => {
-        res.render("people/liv/next_liv");
+//Route added by liv to take to another pug page
+app.get("/people/liv/extra", (req, res) => {
+  res.render("people/liv/next_liv");
 });
-
-
-
-
-
 
 // Route for viewing PUG kitchen sink page
 app.get("/kitchenSink", (req, res) => {
