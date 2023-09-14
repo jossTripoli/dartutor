@@ -12,3 +12,116 @@ html {
     margin: 0 auto;
     
 }
+
+#netflix-logo{
+   width: 150px;
+   display: block;
+   margin: 0 auto;
+}
+
+.ui.basic.segment.alert{
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #358eef;
+    padding: 10px;
+}
+
+i.exclamation.triangle.icon{
+    size: 50px;
+    margin: 0;
+}
+
+h3{
+    margin: 0;
+}
+
+.ui.basic.segment.message{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 15%;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.bold-message{
+    max-width: 300px;
+}
+
+.response{
+    max-width: 525px;
+}
+
+.update{
+    background-color: rgb(221, 44, 24);
+    padding-left: 10px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    max-width: 350px;
+    color: white;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+.underline-text-blue {
+    text-decoration: underline;
+    color: blue;
+}
+
+.ui.basic.segment.bruce{
+    font-size: 1.5rem;
+}
+
+.ui.basic.segment.walmart{
+    font-size: 1.5rem;
+}
+.ui.basic.segment.subject{
+    display: grid;
+    font-size: 2rem;
+    gap: 10px;
+    grid-template-columns: auto 1fr;
+    padding: 10px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.ui.basic.segment.subject.walmart{
+    display: grid;
+    font-size: 2rem;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.ui.huge.label {
+    padding: 5px 10px;
+    margin-top: -5px;
+    margin-left: 15px;
+    max-height: 30px;
+    max-width: fit-content;
+}
+
+.ui.basic.segment.user{
+    display: grid;
+    font-size: 2rem;
+    gap: 10px;
+    grid-template-columns: auto auto 1fr;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+i.user.circle.icon{
+    color: rgb(95, 128, 249);
+    font-size: 50px;
+}
+
+.tag{
+    color:gray;
+}

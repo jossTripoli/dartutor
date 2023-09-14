@@ -1,0 +1,103 @@
+/* default font size of 1rem  (which is 16px). This is the root element so everything else's size will be relative to this */
+/* Set font size for normal text on page to 1.5rem, 24px, which is what the National Institute on Aging uses for their page's body text */
+html {
+    font-size: 1rem;
+}
+
+/* for all email examples to limit their width */
+.limit {
+    position: relative;
+    padding-left: 9rem; 
+    padding-right: 9rem;
+    margin: 0 auto;
+    
+}
+
+#avatarContainer .content{
+    text-align: center;
+    font-family: 'Inter';
+}
+
+#avatarContainer .smallTitle{
+    font-family: 'Inter';
+    font-size: 1.5rem;
+}
+
+#avatarContainer span.date{
+    color: #2165AE;
+}
+
+#avatarContainer .image{
+}
+
+#avatarContainer .ui.card{
+    border-radius: 10px;
+    border: 3px solid #2165AE;
+    background-color: #F9FCFF;
+}
+
+#avatarContainer button.ui.blue.basic.button{
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: 'Armata';
+}
+
+#avatarContainer .userTitle{
+    font-size: 2rem;
+    font-family: 'Armata';
+}
+
+#avatarContainer .image{
+    background-color: #F9FCFF; 
+}
+
+#avatarContainer .ui.card .image {
+    background-color: #F9FCFF; 
+    border: none;
+}
+
+/* make the cards fill the complete width given to them by the grid structure */
+#avatarContainer .ui.card {
+    width: 100%;
+}
+
+#avatarContainer .ui.grid.buttonGrid{
+    border-radius: 20px;
+    text-align: center;
+}
+
+#confirmButton.ui.medium.button{
+    background-color: #fd4319;
+    text-decoration: solid;
+}
+
+
+.ui.segments{
+    border: 5px solid #fd0068;
+    border-radius: 10px;
+}
+
+#title .iPhone{
+    color: #fd0068;
+    font-size: 5rem;
+
+}
+
+
+#congrats{
+    background-color: #FD0068;
+    color: white;
+    padding: 2rem;
+}
+
+#confirmButton{
+    background-color: #FD4319;
+    font-weight: bold;
+}
+
+.ui.basic.huge.segment#title,
+.ui.basic.segment#continue {
+    padding-left: 0; 
+    padding-right: 0;
+}
