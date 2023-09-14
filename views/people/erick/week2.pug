@@ -11,12 +11,95 @@ block content
             br
             h1 Amazon 
             //- code here
-
+            br
+            
+            .ui.segment#AmazonSeg
+                .item#item1
+                    img.AmazonLogo(src="/images/erick/week2/Amazon_logo.svg")
+                    h3 Password Assistance
+                .item#item2
+                    .ui.stackable.vertical.grid#AmazonStack
+                        .row#rowAmazon
+                            p To verify your identity, please use the following code:
+                        .row
+                            h2 456459
+                        .row#rowAmazon
+                            p Amazon takes your account security very seriously. Amazon will never email you to disclose or verify your Amazon password, credit card, or banking account number. If you receive a suspicious email with a link to update your account information, do not click the link - instead, report the email to Amazon for investigation.
+                        .row#rowAmazon
+                            p We hope to see you again soon.
             h1 Dropbox 
             //- code here
+            .ui.segment#DropboxSeg
+                    .ui.stackable.vertical.grid#DropStackable
+                        .row
+                            img.DropboxLogo(src="/images/erick/week2/Dropbox_logo.svg")
+                        .row
+                            span.spanDroptxt We noticed you logged into dropbox using 
+                                b Chrome on Windows 10 
+                                span.spanDroptxt 12:39 PM GMT-04:00 from 
+                                b Orlando Florida, USA.
+                        .row
+                            span.spanDroptxt 
+                                b Note: 
+                                span.spanDroptxt Your location may be inaccurate since it was estimated using your IP address.
+                        .row
+                            span.spanDroptxt You can check on this and other login events by visiting your 
+                                a account page
+                        .row
+                            span.spanDroptxt Happy Dropboxing!
+                        .row  
+                            span.spanDroptxt - The Dropbox Team
+                        .row
+                            span.spanDroptxt P.S. Learn how to 
+                                a protect your account 
+
 
             h1 TrustWallet
             //- code here
+            .ui.segment#TrustWalletSeg
+                 .ui.stackable.vertical.grid#Trustgrid
+                    .row
+                        h2
+                            b Re:[Important] Ticket: 347787-7717-286
+                            button.spamBttn Spam X
+                    .row#rowTrust
+                        .ui.segment#profileSeg
+                            img.TrustLogo(src="/images/erick/week2/exclamation.outline.svg")
+                        span.spanProfile 
+                            span TrustWallet support@trustwallet.datsun 
+                                u vis 
+                            span  forestryway.onmicrosoft.com 
+                            p.toMe to me 
+                    .row#rowTrust
+                        .ui.segment#msgSeg 
+                            p Why is this message in Spam? It is similar to message that were identified as spam in the past.
+                            button
+                                p Report not spam
+                    .row#rowTrust
+                        p 
+                            b Know Your Customer (KYC) regulation
+                    .row#rowTrust
+                        p TrustWallet requires all users to verify their wallets in order to comply with KYC regulations this must be done before 9/30/2022 as a regulate financial services company, we are required to verify all wallets on our platform. We require all customers to verify their wallets to continue using our service
+                    .row#rowTrust
+                        p 
+                            b What if I don't complete the wallet verification?
+
+                    .row#rowTrust
+                        p If you don't verify your wallet, your wallet will be restricted.
+
+                    .row  
+                        button.verifyBttn Verify your wallet
+                    .row#row6  
+                        span Thanks again for your valuable feedback.
+                            p Team TrstWallet
+
+
+
+    
+
+            
+
+
 
 block styles 
     link(rel='stylesheet', href='/css/erick-week2.css')  
