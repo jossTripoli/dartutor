@@ -133,16 +133,16 @@ app.get("/people/caden/message", (req, res) => {
 });
 
 //Routes for reflect pages
-app.get('/people/caden/reflect', (req, res) => {
-  res.render('people/caden/reflect');
+app.get("/people/caden/reflect", (req, res) => {
+  res.render("people/caden/reflect");
 });
 
-app.get('/people/caden/reflect2', (req, res) => {
-  res.render('people/caden/reflect2');
+app.get("/people/caden/reflect2", (req, res) => {
+  res.render("people/caden/reflect2");
 });
 
-app.get('/people/caden/reflect3', (req, res) => {
-  res.render('people/caden/reflect3');
+app.get("/people/caden/reflect3", (req, res) => {
+  res.render("people/caden/reflect3");
 });
 
 app.get("/hua2", (req, res) => {
@@ -155,19 +155,23 @@ app.get("/people/liv/extra", (req, res) => {
 });
 
 //Route added by liv to take you to avatar.pug
-app.get('/people/liv/avatarPage', (req, res) => {
+app.get("/people/liv/avatarPage", (req, res) => {
   res.render("people/liv/avatar");
 });
 
-
 //Route added by liv to take you to iphone.pug
-app.get('/people/liv/iphonePage', (req, res) => {
+app.get("/people/liv/iphonePage", (req, res) => {
   res.render("people/liv/iphone");
 });
 
 // Route for viewing PUG kitchen sink page
 app.get("/kitchenSink", (req, res) => {
   res.render("kitchenSink");
+});
+
+app.get("/brandonsTutorial", (req, res) => {
+  const name = req.params.name;
+  res.render("people/brandon/brandonsTutorial");
 });
 
 // ***Start Server
