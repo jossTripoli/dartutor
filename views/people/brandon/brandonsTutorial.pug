@@ -1,4 +1,4 @@
-extends ../../layout 
+extends ../../layout
 
 block content
     .ui.container
@@ -8,10 +8,32 @@ block content
 
         .limit
             br
-            //- code here
-            .ui.basic.segment
-                h1 Internet Safety - Creating a Strong Password
+            .ui.basic.segment.title.ui.centered
+                h1.ui.header Creating a Strong Password
+            .ui.basic.segment.section1
+                h2.ui.header Strong passwords are important!
+                p You'll need to create a password to do just about everything on the Web, from checking your email to online banking. And while it's simpler to use a short, easy-to-remember password, this can also pose serious risks to your online security. To protect yourself and your information, you'll want to use passwords that are long, strong, and difficult for someone else to guess while still keeping them relatively easy for you to remember.
 
+            .ui.basic.segment.section2
+                h2.ui.header How to Create a Strong Password
+                p Here are some tips for creating a strong password:
+                ul.ui.list
+                    li Use a mix of uppercase and lowercase letters</li>
+                    li Include numbers and special characters</li>
+                    li Avoid using easily guessable information like your name or birthdate</li>
+                    li Make it at least 12 characters long</li>
             
+            .ui.basic.segment.section3
+                h2.ui.header Using a Password Manager
+                p Consider using a password manager to securely store and manage your passwords. A password manager can generate strong passwords and help you keep track of them.
+
+            .ui.basic.segment.section4
+                h2.ui.header Password Strength Meter
+                p Use a password strength meter to check how strong your passwords are. Aim for a score of at least 80%.
+
+            .ui.basic.segment.section5
+                h2.ui.header Two-Factor Authentication (2FA)
+                p Enable 2FA whenever possible to add an extra layer of security to your accounts.
+         
 block styles 
-    link(rel='stylesheet', href='/css/password-tutorial.css')  
+    link(rel='stylesheet', href='/css/password-tutorial.css')
